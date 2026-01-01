@@ -4,7 +4,7 @@ so i wanted to learn rust, this repo is the result of that.
 
 ## what is this?
 
-this is a windows kernel driver written in rust. right now it doesnt do much, just loads prints a debug message. 
+this is a windows kernel driver written in rust. right now it doesnt do much, just loads and prints a debug message. 
 
 ![driver loading successfully](images/dbgview.png)
 
@@ -19,7 +19,7 @@ i wanted to learn rust and the memory safety features seemed like theyd be nice 
 ├── build.rs            # wdk build configuration
 ├── build.bat           # lazy build script
 └── src/
-    └── lib.rs          # driver entry point, KdPrint macro
+    └── lib.rs          # driver entry point
 ```
 
 ## key parts
